@@ -212,7 +212,7 @@ Due to internet access limitations, this research is based on:
 ```
 Platform: WordPress 6.4+
 Hosting: Bluehost, SiteGround, or WP Engine
-Domain: GoDaddy or Namecaller
+Domain: GoDaddy or Namecheap
 Theme: Golf Club Pro or Astra
 Plugins:
   - The Events Calendar Pro

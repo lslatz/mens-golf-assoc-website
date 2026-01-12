@@ -28,7 +28,7 @@ Before starting, ensure you have:
 **Option B: Namecheap**
 1. Go to https://www.namecheap.com
 2. Search and purchase domain ($8-12/year)
-3. More affordable than GoDaddy
+3. More affordable alternative to GoDaddy
 
 **Recommended Domain Names:**
 - boisemensgolf.com
