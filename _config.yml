@@ -21,7 +21,7 @@ header_pages:
   - contact.md
 
 # Golf Genius integration
-golf_genius_url: "#"  # Add your Golf Genius URL here
+golf_genius_url: "https://your-golf-genius-portal-url-here.com"  # TODO: Replace with your actual Golf Genius URL
 
 # Social links (optional)
 # facebook_url: ""
