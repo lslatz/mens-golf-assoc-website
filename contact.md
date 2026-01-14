@@ -11,7 +11,7 @@ permalink: /contact/
 
 <div class="info-box">
   <h2>Indian Lakes Golf Course Men's Association</h2>
-  <p><strong>Email:</strong> <a href="mailto:{{ site.email }}" style="color: var(--secondary-color);">{{ site.email }}</a></p>
+  <p><strong>Email:</strong> <a href="mailto:{{ site.email }}" style="color: var(--accent-color);">{{ site.email }}</a></p>
   <p><strong>Location:</strong> Indian Lakes Golf Course, Boise, ID</p>
 </div>
 
