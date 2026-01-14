@@ -1,65 +1,99 @@
 ---
-layout: default
+layout: home
 title: Home
 ---
 
-<div class="home">
-  <div class="hero-section">
-    <h1>Welcome to Indian Lakes Golf Course Men's Association</h1>
-    <p class="lead">Join us for competitive and recreational golf in Boise, Idaho</p>
-  </div>
-
-  <div class="golf-genius-section">
-    <h2>Golf Genius Portal</h2>
-    <p>View schedules, standings, tee times, and register for events through our Golf Genius platform.</p>
-    <div class="button-group">
-      <a href="{{ site.golf_genius_url }}" class="button primary" target="_blank" rel="noopener">
-        <span>View Schedules & Standings</span>
-      </a>
-      <a href="{{ site.golf_genius_url }}" class="button secondary" target="_blank" rel="noopener">
-        <span>Register for Events</span>
-      </a>
+<section class="hero" style="background-image: url('{{ '/assets/images/hero-golf-course.jpg' | relative_url }}');">
+  <div class="hero-content">
+    <h1>Indian Lakes Golf Course Men's Association</h1>
+    <p class="lead">Join us for competitive and recreational golf in the heart of Boise, Idaho</p>
+    <div class="btn-group">
+      <a href="{{ site.golf_genius_url }}" class="btn btn-primary" target="_blank" rel="noopener">Golf Genius Portal</a>
+      <a href="{{ '/about/' | relative_url }}" class="btn btn-secondary">Learn More</a>
     </div>
   </div>
+</section>
 
-  <div class="content-section">
-    <h2>About Our Association</h2>
-    <p>The Indian Lakes Golf Course Men's Association is dedicated to promoting the game of golf and providing our members with competitive playing opportunities throughout the season.</p>
+<section class="section">
+  <div class="container">
+    <div class="section-title">
+      <h2>Welcome to Our Association</h2>
+      <p>Experience the finest golf community in Boise</p>
+    </div>
     
-    <div class="features">
-      <div class="feature">
-        <h3>Weekly Events</h3>
-        <p>Participate in our weekly tournaments and competitions.</p>
+    <div class="features-grid">
+      <div class="feature-card">
+        <h3>⛳ Weekly Tournaments</h3>
+        <p>Participate in our expertly organized weekly tournaments and competitions throughout the season.</p>
       </div>
-      <div class="feature">
-        <h3>Handicap Management</h3>
-        <p>Track your handicap through our Golf Genius system.</p>
+      <div class="feature-card">
+        <h3>📊 Handicap Tracking</h3>
+        <p>Professional handicap management through our integrated Golf Genius system.</p>
       </div>
-      <div class="feature">
-        <h3>Community</h3>
-        <p>Connect with fellow golf enthusiasts in the Boise area.</p>
+      <div class="feature-card">
+        <h3>🤝 Community</h3>
+        <p>Connect with passionate golf enthusiasts and build lasting friendships on the course.</p>
       </div>
     </div>
   </div>
+</section>
 
-  <div class="quick-links">
-    <h2>Golf Genius Quick Links</h2>
-    <ul>
-      <li><a href="{{ site.golf_genius_url }}" target="_blank" rel="noopener">📅 Upcoming Events & Registration</a></li>
-      <li><a href="{{ site.golf_genius_url }}" target="_blank" rel="noopener">🏆 Current Standings</a></li>
-      <li><a href="{{ site.golf_genius_url }}" target="_blank" rel="noopener">📊 Results & Scores</a></li>
-      <li><a href="{{ site.golf_genius_url }}" target="_blank" rel="noopener">👤 Player Profiles & Stats</a></li>
-      <li><a href="{{ site.golf_genius_url }}" target="_blank" rel="noopener">⛳ Tee Times</a></li>
-    </ul>
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-title">
+      <h2>Experience Indian Lakes</h2>
+      <p>Discover the beauty of our premier golf facility</p>
+    </div>
+    
+    <div class="image-grid">
+      <div class="image-card">
+        <img src="{{ '/assets/images/golf-tournament.jpg' | relative_url }}" alt="Golf Tournament">
+        <div class="image-overlay">
+          <h3>Competitive Play</h3>
+        </div>
+      </div>
+      <div class="image-card">
+        <img src="{{ '/assets/images/putting-green.jpg' | relative_url }}" alt="Putting Green">
+        <div class="image-overlay">
+          <h3>Pristine Greens</h3>
+        </div>
+      </div>
+      <div class="image-card">
+        <img src="{{ '/assets/images/clubhouse.jpg' | relative_url }}" alt="Clubhouse">
+        <div class="image-overlay">
+          <h3>Modern Facilities</h3>
+        </div>
+      </div>
+      <div class="image-card">
+        <img src="{{ '/assets/images/golf-course-aerial.jpg' | relative_url }}" alt="Course Overview">
+        <div class="image-overlay">
+          <h3>Scenic Views</h3>
+        </div>
+      </div>
+    </div>
   </div>
+</section>
 
-  <div class="info-section">
-    <h2>Season Information</h2>
-    <p><strong>Season:</strong> April - October {{ site.time | date: "%Y" }}</p>
-    <p><strong>Location:</strong> Indian Lakes Golf Course, Boise, ID</p>
-    <p><strong>Membership:</strong> Open to all skill levels</p>
-    <p style="margin-top: 1.5rem;">
-      <a href="/about/">Learn More About Our Association →</a>
-    </p>
+<section class="section">
+  <div class="container">
+    <div class="quick-links">
+      <h2>Golf Genius Quick Access</h2>
+      <ul>
+        <li><a href="{{ site.golf_genius_url }}" target="_blank" rel="noopener">📅 Register for Events</a></li>
+        <li><a href="{{ site.golf_genius_url }}" target="_blank" rel="noopener">🏆 Current Standings</a></li>
+        <li><a href="{{ site.golf_genius_url }}" target="_blank" rel="noopener">📊 View Results</a></li>
+        <li><a href="{{ site.golf_genius_url }}" target="_blank" rel="noopener">⛳ Book Tee Times</a></li>
+      </ul>
+    </div>
+    
+    <div class="info-box">
+      <h2>{{ site.time | date: "%Y" }} Season Information</h2>
+      <p><strong>Season:</strong> April - October {{ site.time | date: "%Y" }}</p>
+      <p><strong>Location:</strong> Indian Lakes Golf Course, Boise, ID</p>
+      <p><strong>Membership:</strong> Open to all skill levels</p>
+      <div style="text-align: center; margin-top: 2rem;">
+        <a href="{{ '/about/' | relative_url }}" class="btn btn-secondary">Learn More About Our Association</a>
+      </div>
+    </div>
   </div>
-</div>
+</section>

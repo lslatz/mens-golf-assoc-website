@@ -4,62 +4,106 @@ title: Tournaments & Events
 permalink: /tournaments/
 ---
 
-## {{ site.time | date: "%Y" }} Tournament Schedule
+<section class="content-section">
+  <h2>{{ site.time | date: "%Y" }} Tournament Schedule</h2>
+  <p>All tournament registration, scoring, and results are managed through our Golf Genius platform.</p>
+  
+  <div style="text-align: center; margin: 2rem 0;">
+    <a href="{{ site.golf_genius_url }}" class="btn btn-primary" target="_blank" rel="noopener">View Schedule & Register on Golf Genius</a>
+  </div>
+</section>
 
-All tournament registration, scoring, and results are managed through our Golf Genius platform.
-
-<div style="text-align: center; margin: 2rem 0;">
-  <a href="{{ site.golf_genius_url }}" class="button primary" target="_blank" rel="noopener">
-    View Schedule & Register on Golf Genius
-  </a>
+<div class="image-card">
+  <img src="{{ '/assets/images/golf-tournament.jpg' | relative_url }}" alt="Tournament Play">
+  <div class="image-overlay">
+    <h3>Competitive Tournament Play</h3>
+  </div>
 </div>
 
-### Weekly Events
+<section class="content-section">
+  <h2>Weekly Events</h2>
+  <p>Our association hosts weekly events throughout the season, typically held on weekday evenings and weekend mornings. Check Golf Genius for specific dates and tee times.</p>
+  
+  <p><strong>Format:</strong> Various formats including stroke play, match play, and team events</p>
+  <p><strong>When:</strong> April through October</p>
+  <p><strong>Registration:</strong> Through Golf Genius portal</p>
+</section>
 
-Our association hosts weekly events throughout the season, typically held on weekday evenings and weekend mornings. Check Golf Genius for specific dates and tee times.
+<section class="content-section">
+  <h2>Special Tournaments</h2>
+  <p>Throughout the season, we host several special tournaments including:</p>
+  
+  <div class="features-grid">
+    <div class="feature-card">
+      <h3>Season Opener</h3>
+      <p>April</p>
+    </div>
+    <div class="feature-card">
+      <h3>Member-Guest</h3>
+      <p>June</p>
+    </div>
+    <div class="feature-card">
+      <h3>Club Championship</h3>
+      <p>July</p>
+    </div>
+    <div class="feature-card">
+      <h3>Season Championship</h3>
+      <p>October</p>
+    </div>
+  </div>
+</section>
 
-**Format:** Various formats including stroke play, match play, and team events  
-**When:** April through October  
-**Registration:** Through Golf Genius portal
+<div class="image-grid">
+  <div class="image-card">
+    <img src="{{ '/assets/images/putting-green.jpg' | relative_url }}" alt="Putting Competition">
+  </div>
+  <div class="image-card">
+    <img src="{{ '/assets/images/clubhouse.jpg' | relative_url }}" alt="Awards Ceremony">
+  </div>
+</div>
 
-### Special Tournaments
+<div class="info-box">
+  <h2>Current Standings & Results</h2>
+  <p>View live standings, scores, and player statistics on our Golf Genius platform.</p>
+  <div style="display: flex; gap: 1rem; justify-content: center; margin-top: 2rem; flex-wrap: wrap;">
+    <a href="{{ site.golf_genius_url }}" class="btn btn-secondary" target="_blank" rel="noopener">View Current Standings</a>
+    <a href="{{ site.golf_genius_url }}" class="btn btn-secondary" target="_blank" rel="noopener">View Past Results</a>
+  </div>
+</div>
 
-Throughout the season, we host several special tournaments including:
+<section class="content-section">
+  <h2>Tournament Rules</h2>
+  <ul>
+    <li>All tournaments follow USGA rules</li>
+    <li>Handicaps are calculated and maintained through Golf Genius</li>
+    <li>Players must be current members in good standing</li>
+    <li>Registration deadlines are posted on Golf Genius</li>
+  </ul>
+</section>
 
-- **Season Opener** - April
-- **Member-Guest Tournament** - June
-- **Club Championship** - July
-- **Season Championship** - October
+<section class="content-section">
+  <h2>How to Participate</h2>
+  <div class="features-grid">
+    <div class="feature-card">
+      <h3>1. Register</h3>
+      <p>Sign up for events through our <a href="{{ site.golf_genius_url }}" target="_blank" rel="noopener">Golf Genius portal</a></p>
+    </div>
+    <div class="feature-card">
+      <h3>2. Check In</h3>
+      <p>Arrive at least 15 minutes before your tee time</p>
+    </div>
+    <div class="feature-card">
+      <h3>3. Play</h3>
+      <p>Enjoy your round and compete with fellow members</p>
+    </div>
+    <div class="feature-card">
+      <h3>4. Submit Scores</h3>
+      <p>Scores are entered through Golf Genius for real-time updates</p>
+    </div>
+  </div>
+</section>
 
-### Current Standings
-
-View live standings, scores, and player statistics on our Golf Genius platform.
-
-<a href="{{ site.golf_genius_url }}" target="_blank" rel="noopener">View Current Standings →</a>
-
-### Past Results
-
-Historical tournament results and scoring data are available through Golf Genius.
-
-<a href="{{ site.golf_genius_url }}" target="_blank" rel="noopener">View Past Results →</a>
-
-### Tournament Rules
-
-- All tournaments follow USGA rules
-- Handicaps are calculated and maintained through Golf Genius
-- Players must be current members in good standing
-- Registration deadlines are posted on Golf Genius
-
-### How to Participate
-
-1. **Register** - Sign up for events through our <a href="{{ site.golf_genius_url }}" target="_blank" rel="noopener">Golf Genius portal</a>
-2. **Check In** - Arrive at least 15 minutes before your tee time
-3. **Play** - Enjoy your round and compete with fellow members
-4. **Submit Scores** - Scores are entered through Golf Genius for real-time updates
-
----
-
-<div style="text-align: center; margin-top: 2rem;">
-  <h3>Ready to Play?</h3>
-  <a href="{{ site.golf_genius_url }}" class="button primary" target="_blank" rel="noopener">Register for Upcoming Events</a>
+<div style="text-align: center; margin-top: 3rem;">
+  <h2>Ready to Play?</h2>
+  <a href="{{ site.golf_genius_url }}" class="btn btn-primary" target="_blank" rel="noopener">Register for Upcoming Events</a>
 </div>
