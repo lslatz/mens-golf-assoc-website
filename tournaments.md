@@ -4,7 +4,7 @@ title: Tournaments & Events
 permalink: /tournaments/
 ---
 
-## 2026 Tournament Schedule
+## {{ site.time | date: "%Y" }} Tournament Schedule
 
 All tournament registration, scoring, and results are managed through our Golf Genius platform.
 

@@ -55,7 +55,7 @@ title: Home
 
   <div class="info-section">
     <h2>Season Information</h2>
-    <p><strong>Season:</strong> April - October 2026</p>
+    <p><strong>Season:</strong> April - October {{ site.time | date: "%Y" }}</p>
     <p><strong>Location:</strong> Indian Lakes Golf Course, Boise, ID</p>
     <p><strong>Membership:</strong> Open to all skill levels</p>
     <p style="margin-top: 1.5rem;">
