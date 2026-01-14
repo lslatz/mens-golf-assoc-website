@@ -748,3 +748,24 @@ main {
     padding: 3rem 0;
   }
 }
+
+/* Accessibility: Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  .hero::before,
+  .hero::after,
+  .info-box::before {
+    animation: none !important;
+  }
+  
+  .btn::before {
+    transition: none !important;
+  }
+}
