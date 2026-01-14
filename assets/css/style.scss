@@ -1,0 +1,177 @@
+---
+---
+
+@import "minima";
+
+/* Custom styles for Indian Lakes Golf Course Men's Association */
+
+.hero-section {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(135deg, #2e7d32 0%, #66bb6a 100%);
+  color: white;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.hero-section .lead {
+  font-size: 1.25rem;
+  opacity: 0.95;
+}
+
+.golf-genius-section {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.golf-genius-section h2 {
+  color: #2e7d32;
+  margin-bottom: 1rem;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.button.primary {
+  background-color: #2e7d32;
+  color: white;
+  border-color: #2e7d32;
+}
+
+.button.primary:hover {
+  background-color: #1b5e20;
+  border-color: #1b5e20;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.button.secondary {
+  background-color: white;
+  color: #2e7d32;
+  border-color: #2e7d32;
+}
+
+.button.secondary:hover {
+  background-color: #2e7d32;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.content-section {
+  margin-bottom: 2rem;
+}
+
+.content-section h2 {
+  color: #2e7d32;
+  margin-bottom: 1rem;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.feature {
+  padding: 1.5rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  border-left: 4px solid #2e7d32;
+}
+
+.feature h3 {
+  color: #2e7d32;
+  margin-bottom: 0.5rem;
+}
+
+.quick-links {
+  background-color: #f5f5f5;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.quick-links h2 {
+  color: #2e7d32;
+  margin-bottom: 1rem;
+}
+
+.quick-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.quick-links li {
+  margin-bottom: 0.75rem;
+}
+
+.quick-links a {
+  color: #2e7d32;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.quick-links a:hover {
+  color: #1b5e20;
+  text-decoration: underline;
+}
+
+.info-section {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  border: 2px solid #e0e0e0;
+  margin-bottom: 2rem;
+}
+
+.info-section h2 {
+  color: #2e7d32;
+  margin-bottom: 1rem;
+}
+
+.info-section p {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .hero-section h1 {
+    font-size: 1.75rem;
+  }
+  
+  .button-group {
+    flex-direction: column;
+  }
+  
+  .button {
+    width: 100%;
+  }
+}
