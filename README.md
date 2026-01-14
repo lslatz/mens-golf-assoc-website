@@ -35,6 +35,22 @@ Edit `_config.yml` to update:
 
 ## Images
 
+### Current Status
+The repository currently contains placeholder/stylized images. **These need to be replaced with realistic golf course photography.**
+
+### Quick Image Update
+
+Run the provided script to download free stock images from Unsplash:
+
+```bash
+chmod +x download-images.sh
+./download-images.sh
+```
+
+**Note:** This script requires internet access. If it fails in your environment, see manual download instructions below.
+
+### Manual Image Download
+
 The site uses the following images in `assets/images/`:
 - `hero-golf-course.jpg` (1920x600) - Hero section background showing a scenic golf course
 - `golf-tournament.jpg` (1200x800) - Tournament play action shot
@@ -43,8 +59,11 @@ The site uses the following images in `assets/images/`:
 - `golf-course-aerial.jpg` (1200x800) - Aerial view of the golf course
 
 For best results, use high-quality, realistic golf course photography. Free stock photos can be found at:
-- Unsplash.com (search: golf course, golf tournament, putting green)
-- Pexels.com (search: golf, golf course)
+- **Unsplash.com** (search: "golf course", "golf tournament", "putting green")
+- **Pexels.com** (search: "golf", "golf course")
+- **Pixabay.com** (search: "golf", "golf course")
+
+See `IMAGES.md` for detailed image specifications and guidelines.
 
 ## Deployment
 
