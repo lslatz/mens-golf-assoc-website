@@ -4,7 +4,7 @@ Official Jekyll website for the Indian Lakes Golf Course Men's Association in Bo
 
 ## About
 
-This is a static Jekyll site that provides information about our men's golf association and links to our Golf Genius platform for event management, scoring, and registration.
+This is a static Jekyll site that provides information about our men's golf association.
 
 ## Local Development
 
@@ -32,7 +32,19 @@ This is a static Jekyll site that provides information about our men's golf asso
 Edit `_config.yml` to update:
 - Site title and description
 - Contact email
-- Golf Genius URL (replace `#` with your actual Golf Genius portal URL)
+
+## Images
+
+The site uses the following images in `assets/images/`:
+- `hero-golf-course.jpg` (1920x600) - Hero section background showing a scenic golf course
+- `golf-tournament.jpg` (1200x800) - Tournament play action shot
+- `putting-green.jpg` (1200x800) - Close-up of putting green
+- `clubhouse.jpg` (1200x800) - Clubhouse exterior or interior
+- `golf-course-aerial.jpg` (1200x800) - Aerial view of the golf course
+
+For best results, use high-quality, realistic golf course photography. Free stock photos can be found at:
+- Unsplash.com (search: golf course, golf tournament, putting green)
+- Pexels.com (search: golf, golf course)
 
 ## Deployment
 
@@ -40,14 +52,3 @@ This site can be deployed to:
 - GitHub Pages
 - Netlify
 - Any static site hosting service
-
-## Golf Genius Integration
-
-The site links to Golf Genius for:
-- Tournament registration
-- Event schedules
-- Live scoring and standings
-- Player profiles and statistics
-- Handicap tracking
-
-Update the `golf_genius_url` in `_config.yml` with your actual Golf Genius portal URL.
