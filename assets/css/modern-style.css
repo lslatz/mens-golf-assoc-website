@@ -657,7 +657,7 @@ main {
 
 .footer-section p,
 .footer-section a {
-  color: rgba(255, 255, 255, 0.8);
+  color: var(--text-on-dark);
 }
 
 @media (hover: hover) {
@@ -680,7 +680,12 @@ main {
   padding-top: 2rem;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   font-size: 0.9rem;
-  color: #cccccc;
+  color: var(--text-on-dark);
+}
+
+.footer-bottom p {
+  color: var(--text-on-dark);
+  margin-bottom: 0;
 }
 
 /* Responsive Design */
