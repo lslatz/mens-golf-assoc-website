@@ -99,7 +99,7 @@ a:hover {
 
 .logo {
   font-family: 'Playfair Display', serif;
-  font-size: 1.6rem;
+  font-size: 1.3rem; /* Reduced from 1.6rem */
   font-weight: 700;
   color: var(--primary-color);
   text-decoration: none;
@@ -130,11 +130,18 @@ a:hover {
   transition: all 0.3s ease;
 }
 
-.nav-menu li a:hover,
 .nav-menu li a.active {
   color: var(--primary-color);
   background: transparent;
   border-bottom-color: var(--accent-color);
+}
+
+@media (hover: hover) {
+  .nav-menu li a:hover {
+    color: var(--primary-color);
+    background: transparent;
+    border-bottom-color: var(--accent-color);
+  }
 }
 
 .nav-menu li a:hover::before,
@@ -154,10 +161,12 @@ a:hover {
   margin-left: 1rem;
 }
 
-.btn-golf-genius:hover {
-  background: var(--primary-color);
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-hover);
+@media (hover: hover) {
+  .btn-golf-genius:hover {
+    background: var(--primary-color);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-hover);
+  }
 }
 
 .mobile-menu-toggle {
@@ -259,6 +268,7 @@ main {
   letter-spacing: 1px;
   cursor: pointer;
   border: 2px solid transparent;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .btn-primary {
@@ -267,23 +277,25 @@ main {
   box-shadow: var(--shadow);
 }
 
-.btn-primary:hover {
-  background-color: #246B44; /* Darker Green */
-  color: #ffffff;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(36, 107, 68, 0.4);
-  border-color: var(--accent-color);
+@media (hover: hover) {
+  .btn-primary:hover {
+    background-color: #246B44; /* Darker Green */
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(36, 107, 68, 0.4);
+    border-color: var(--accent-color);
+  }
+
+  .btn-outline:hover {
+    background: var(--text-on-dark);
+    color: var(--primary-color);
+  }
 }
 
 .btn-outline {
   background: transparent;
   border: 2px solid var(--text-on-dark);
   color: var(--text-on-dark);
-}
-
-.btn-outline:hover {
-  background: var(--text-on-dark);
-  color: var(--primary-color);
 }
 
 /* Clear old button effects */
@@ -656,9 +668,22 @@ main {
     display: flex;
   }
   
+  /* Hamburger turning into X */
+  .mobile-menu-toggle.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 6px);
+  }
+  
+  .mobile-menu-toggle.active span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .mobile-menu-toggle.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -6px);
+  }
+
   .nav-menu {
-    position: fixed;
-    top: 60px;
+    position: absolute;
+    top: 100%;
     left: 0;
     right: 0;
     background: var(--bg-white);
@@ -669,6 +694,7 @@ main {
     opacity: 0;
     transition: all 0.3s ease;
     border-bottom: 2px solid var(--accent-color);
+    z-index: 999;
   }
   
   .nav-menu li a {
