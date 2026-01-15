@@ -1,11 +1,14 @@
 # Site settings
-title: Indian Lakes Golf Course Men's Association
+# Updated: Civic Park Theme
+title: Indian Lakes Men's Association
 email: info@indianlakesmga.com
 description: >-
-  Official website for the Indian Lakes Golf Course Men's Association in Boise, Idaho.
-  Find information about our association, events, and how to join.
+  Official portal for the Indian Lakes Men's Golf Association.
+  View results, schedules, and club news.
 baseurl: ""
 url: ""
+golf_genius_url: "https://www.golfgenius.com"
+tee_time_url: "#" # Placeholder
 
 # Build settings
 markdown: kramdown
@@ -15,8 +18,8 @@ plugins:
 # Navigation
 header_pages:
   - index.md
-  - about.md
   - tournaments.md
+  - about.md
   - contact.md
 
 # Golf Genius integration
