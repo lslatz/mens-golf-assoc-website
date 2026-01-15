@@ -35,7 +35,4 @@ permalink: /about/
   <p>Indian Lakes is a premier golf facility in Boise, Idaho, offering a challenging and scenic course for players of all abilities.</p>
 </section>
 
-<section class="content-section">
-  <h2>Contact Information</h2>
-  <p>For more information about joining our association or participating in events, please visit our <a href="{{ '/contact/' | relative_url }}">Contact page</a>.</p>
-</section>
+

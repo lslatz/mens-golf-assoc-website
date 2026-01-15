@@ -10,9 +10,9 @@
         <h3>Quick Links</h3>
         <ul>
           <li><a href="{{ '/' | relative_url }}">Home</a></li>
-          <li><a href="{{ '/about/' | relative_url }}">About</a></li>
           <li><a href="{{ '/tournaments/' | relative_url }}">Tournaments</a></li>
           <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+          <li><a href="{{ '/about/' | relative_url }}">About</a></li>
         </ul>
       </div>
       
@@ -45,5 +45,13 @@ document.querySelectorAll('.nav-menu a').forEach(link => {
     navMenu.classList.remove('active');
     menuToggle.classList.remove('active');
   });
+});
+
+// Handle back button caching (bfcache)
+window.addEventListener('pageshow', (event) => {
+  if (event.persisted) { // If page is loaded from cache
+    navMenu.classList.remove('active');
+    menuToggle.classList.remove('active');
+  }
 });
 </script>

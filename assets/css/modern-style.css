@@ -71,8 +71,10 @@ a {
   transition: all 0.2s ease;
 }
 
-a:hover {
-  color: var(--accent-color);
+@media (hover: hover) {
+  a:hover {
+    color: var(--accent-color);
+  }
 }
 
 /* Header & Navigation */
@@ -99,7 +101,7 @@ a:hover {
 
 .logo {
   font-family: 'Playfair Display', serif;
-  font-size: 1.3rem; /* Reduced from 1.6rem */
+  font-size: 1.4rem; /* Reduced from 1.6rem */
   font-weight: 700;
   color: var(--primary-color);
   text-decoration: none;
@@ -107,8 +109,10 @@ a:hover {
   align-items: center;
 }
 
-.logo:hover {
-  color: var(--secondary-color);
+@media (hover: hover) {
+  .logo:hover {
+    color: var(--secondary-color);
+  }
 }
 
 .nav-menu {
@@ -310,10 +314,12 @@ main {
   border: 2px solid var(--accent-color);
 }
 
-.btn-secondary:hover {
-  background: var(--accent-color);
-  color: var(--primary-color);
-  border-color: var(--accent-color);
+@media (hover: hover) {
+  .btn-secondary:hover {
+    background: var(--accent-color);
+    color: var(--primary-color);
+    border-color: var(--accent-color);
+  }
 }
 
 .btn-group {
@@ -396,14 +402,16 @@ main {
   transition: transform 0.3s ease;
 }
 
-.feature-card:hover {
-  transform: translateY(-5px);
-  box-shadow: var(--shadow-hover);
-  border-color: var(--primary-color);
-}
+@media (hover: hover) {
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-hover);
+    border-color: var(--primary-color);
+  }
 
-.feature-card:hover::before {
-  transform: scaleX(1);
+  .feature-card:hover::before {
+    transform: scaleX(1);
+  }
 }
 
 .feature-card h3 {
@@ -441,8 +449,10 @@ main {
   transition: transform 0.5s ease;
 }
 
-.image-card:hover img {
-  transform: scale(1.1);
+@media (hover: hover) {
+  .image-card:hover img {
+    transform: scale(1.1);
+  }
 }
 
 .image-overlay {
@@ -543,6 +553,12 @@ main {
   color: var(--accent-color);
 }
 
+.info-box .btn,
+.info-box div {
+  position: relative;
+  z-index: 2;
+}
+
 /* Quick Links */
 .quick-links {
   background: var(--bg-white);
@@ -577,11 +593,13 @@ main {
   border-left: 4px solid var(--primary-color);
 }
 
-.quick-links li a:hover {
-  background: var(--primary-color);
-  color: var(--text-on-dark);
-  transform: translateX(5px);
-  border-left-color: var(--accent-color);
+@media (hover: hover) {
+  .quick-links li a:hover {
+    background: var(--primary-color);
+    color: var(--text-on-dark);
+    transform: translateX(5px);
+    border-left-color: var(--accent-color);
+  }
 }
 
 /* Page Content */
@@ -642,9 +660,11 @@ main {
   color: rgba(255, 255, 255, 0.8);
 }
 
-.footer-section a:hover {
-  color: var(--accent-color);
-  text-decoration: underline;
+@media (hover: hover) {
+  .footer-section a:hover {
+    color: var(--accent-color);
+    text-decoration: underline;
+  }
 }
 
 .footer-section ul {

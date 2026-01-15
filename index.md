@@ -45,7 +45,7 @@ title: Home
       <p><strong>Location:</strong> Indian Lakes, Boise, ID</p>
       <p><strong>Membership:</strong> Open to all skill levels</p>
       <div style="text-align: center; margin-top: 2rem;">
-        <a href="{{ '/about/' | relative_url }}" class="btn btn-secondary">Learn More</a>
+        <a href="{{ '/tournaments/' | relative_url }}" class="btn btn-primary">View Schedule</a>
       </div>
     </div>
   </div>
