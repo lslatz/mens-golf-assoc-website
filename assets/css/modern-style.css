@@ -163,18 +163,22 @@ a:hover {
 .mobile-menu-toggle {
   display: none;
   flex-direction: column;
+  justify-content: space-around; /* Changed from default to space-around for even spacing */
   background: none;
   border: none;
   cursor: pointer;
-  padding: 0.5rem;
+  padding: 10px; /* Increased padding hit area */
+  height: 44px; /* Minimum touch target size */
+  width: 44px; /* Minimum touch target size */
+  z-index: 1001; /* Ensure it sits above other elements */
 }
 
 .mobile-menu-toggle span {
   width: 25px;
   height: 3px;
   background: var(--primary-color);
-  margin: 3px 0;
   transition: 0.3s;
+  border-radius: 3px; /* Softer edges */
 }
 
 /* Main Content */
