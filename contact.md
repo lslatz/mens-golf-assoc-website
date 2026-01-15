@@ -10,9 +10,9 @@ permalink: /contact/
 </section>
 
 <div class="info-box">
-  <h2>Indian Lakes Golf Course Men's Association</h2>
+  <h2>Indian Lakes Men's Association</h2>
   <p><strong>Email:</strong> <a href="mailto:{{ site.email }}" style="color: var(--accent-color);">{{ site.email }}</a></p>
-  <p><strong>Location:</strong> Indian Lakes Golf Course, Boise, ID</p>
+  <p><strong>Location:</strong> Indian Lakes, Boise, ID</p>
 </div>
 
 <section class="content-section">
@@ -37,5 +37,5 @@ permalink: /contact/
 
 <section class="content-section">
   <h2>Indian Lakes Golf Course</h2>
-  <p>For information about the golf course itself, including tee times, course conditions, pro shop, and lessons, please contact the golf course directly.</p>
+  <p>For information about the golf course itself, including tee times, course conditions, pro shop, and lessons, please contact the pro shop directly.</p>
 </section>

@@ -1,6 +1,6 @@
-# Indian Lakes Golf Course Men's Association Website
+# Indian Lakes Men's Association Website
 
-Official Jekyll website for the Indian Lakes Golf Course Men's Association in Boise, Idaho.
+Official Jekyll website for the Indian Lakes Men's Association in Boise, Idaho.
 
 ## About
 

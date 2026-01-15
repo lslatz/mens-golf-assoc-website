@@ -5,8 +5,8 @@ permalink: /about/
 ---
 
 <section class="content-section">
-  <h2>About Indian Lakes Golf Course Men's Association</h2>
-  <p>The Indian Lakes Golf Course Men's Association is a vibrant community of golf enthusiasts located in Boise, Idaho. Our association provides members with regular competitive and recreational golf opportunities throughout the season.</p>
+  <h2>About Indian Lakes Men's Association</h2>
+  <p>The Indian Lakes Men's Association is a vibrant community of golf enthusiasts located in Boise, Idaho. Our association provides members with regular competitive and recreational golf opportunities throughout the season.</p>
 </section>
 
 <section class="content-section">
@@ -17,8 +17,7 @@ permalink: /about/
 <section class="content-section">
   <h2>Membership Benefits</h2>
   <ul>
-    <li>Access to weekly tournaments and events</li>
-    <li>Handicap tracking and management</li>
+    <li>Access to tournaments and events</li>
     <li>Competitive league play</li>
     <li>Social events and gatherings</li>
     <li>Member pricing on select events</li>
@@ -32,8 +31,8 @@ permalink: /about/
 </section>
 
 <section class="content-section">
-  <h2>About Indian Lakes Golf Course</h2>
-  <p>Indian Lakes Golf Course is a premier golf facility in Boise, Idaho, offering a challenging and scenic course for players of all abilities.</p>
+  <h2>About Indian Lakes</h2>
+  <p>Indian Lakes is a premier golf facility in Boise, Idaho, offering a challenging and scenic course for players of all abilities.</p>
 </section>
 
 <section class="content-section">

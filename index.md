@@ -3,9 +3,9 @@ layout: home
 title: Home
 ---
 
-<section class="hero" style="background-image: url('{{ '/assets/images/hero-golf-course.jpg' | relative_url }}');">
+<section class="hero" style="background-image: url('{{ '/assets/images/custom-hero-2.png' | relative_url }}');">
   <div class="hero-content">
-    <h1>Indian Lakes Golf Course Men's Association</h1>
+    <h1>Indian Lakes Men's Association</h1>
     <p class="lead">Join us for competitive and recreational golf in the heart of Boise, Idaho</p>
     <div class="btn-group">
       <a href="{{ '/about/' | relative_url }}" class="btn btn-primary">Learn More</a>
@@ -22,8 +22,8 @@ title: Home
     
     <div class="features-grid">
       <div class="feature-card">
-        <h3>⛳ Weekly Tournaments</h3>
-        <p>Participate in organized weekly tournaments throughout the season.</p>
+        <h3>⛳ Special Tournaments</h3>
+        <p>Participate in organized tournaments throughout the season.</p>
       </div>
       <div class="feature-card">
         <h3>🤝 Community</h3>
@@ -42,7 +42,7 @@ title: Home
     <div class="info-box">
       <h2>{{ site.time | date: "%Y" }} Season Information</h2>
       <p><strong>Season:</strong> April - October {{ site.time | date: "%Y" }}</p>
-      <p><strong>Location:</strong> Indian Lakes Golf Course, Boise, ID</p>
+      <p><strong>Location:</strong> Indian Lakes, Boise, ID</p>
       <p><strong>Membership:</strong> Open to all skill levels</p>
       <div style="text-align: center; margin-top: 2rem;">
         <a href="{{ '/about/' | relative_url }}" class="btn btn-secondary">Learn More</a>

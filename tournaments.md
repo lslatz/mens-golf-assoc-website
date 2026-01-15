@@ -7,13 +7,16 @@ permalink: /tournaments/
 <section class="content-section">
   <h2>{{ site.time | date: "%Y" }} Tournament Schedule</h2>
   <p>Our association hosts regular tournaments and events throughout the golf season.</p>
+  <div style="margin-top: 1.5rem; text-align: center;">
+    <a href="https://www.golfgenius.com" class="btn btn-primary" target="_blank">View {{ site.time | date: "%Y" }} Schedule on Golf Genius</a>
+  </div>
 </section>
 
 <section class="content-section">
   <h2>Weekly Events</h2>
-  <p>Our association hosts weekly events throughout the season, typically held on weekday evenings and weekend mornings.</p>
+  <p>Our association hosts weekly league events throughout the season, typically held on weekday evenings.</p>
   
-  <p><strong>Format:</strong> Various formats including stroke play, match play, and team events</p>
+  <p><strong>Format:</strong> Various formats including stroke play and team events</p>
   <p><strong>When:</strong> April through October</p>
 </section>
 
