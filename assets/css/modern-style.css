@@ -680,6 +680,7 @@ main {
   padding-top: 2rem;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   font-size: 0.9rem;
+  color: #cccccc;
 }
 
 /* Responsive Design */
@@ -712,7 +713,8 @@ main {
     box-shadow: var(--shadow);
     transform: translateY(-100%);
     opacity: 0;
-    transition: all 0.3s ease;
+    visibility: hidden;
+    transition: all 0.3s ease, visibility 0.3s;
     border-bottom: 2px solid var(--accent-color);
     z-index: 999;
   }
@@ -724,6 +726,7 @@ main {
   .nav-menu.active {
     transform: translateY(0);
     opacity: 1;
+    visibility: visible;
   }
   
   .hero h1 {
