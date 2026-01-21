@@ -60,31 +60,37 @@ Based on industry research, men's golf associations typically use these domain p
   - **vgagolf.org** - Virginia Golf Association (verified working)
 - **Why it works**: "MGA" or state abbreviation + GA is the widely recognized abbreviation pattern for golf associations
 
-#### 2. **Regional/State Golf Association Pattern**
-- Format: `[region/state]ga.org` or `[state]golf.org`
+#### 2. **State Golf Association Pattern**
+- Format: `[state]golf.org` or `[state]ga.org`
 - **Real Working Examples**:
-  - **ghin.com** - Golf Handicap and Information Network (USGA service) (verified working)
-  - **pga.com** - Professional Golfers' Association (verified working)
-  - **usga.org** - United States Golf Association (verified working)
   - **coloradogolf.org** - Colorado Golf Association (verified working)
   - **oregongolf.org** - Oregon Golf Association (verified working)
-- **Why it works**: Clear regional identity, highly professional, established pattern
+  - **scga.org** and **ncga.org** also follow this pattern ([region]ga.org)
+- **Why it works**: Clear regional identity, proven pattern used by state associations
 
-#### 3. **Full Name with "Golf" Pattern**
+#### 3. **National Organization Pattern**
+- Format: Various (acronyms, full names)
+- **Real Working Examples**:
+  - **usga.org** - United States Golf Association (verified working)
+  - **pga.com** - Professional Golfers' Association (verified working)
+  - **ghin.com** - Golf Handicap and Information Network (verified working)
+- **Why it works**: Established organizations with strong brand recognition
+
+#### 4. **Full Name with "Golf" Pattern**
 - Format: `[clubname]golf.com` or `.org`
 - **Real Working Examples**:
   - Many local clubs use formats like "[clubname]cc.org" (country club) or "[clubname]gc.com" (golf club)
   - Private clubs often use full club name + .org or .com
 - **Why it works**: Descriptive and self-explanatory for new members
 
-#### 4. **Location-Based Pattern**
+#### 5. **Location-Based Pattern**
 - Format: `[city/region]mga.com` or `[city]golf.org`
 - **Real Working Examples**:
   - Regional associations often use city/state + golf/ga combination
   - Local men's clubs may host pages on main club website (e.g., website.com/mens-golf)
 - **Why it works**: Good for regional associations serving multiple courses
 
-#### 5. **TLD Considerations**
+#### 6. **TLD Considerations**
 - **.com**: Most preferred, commercial standard, highest credibility
 - **.org**: Traditional choice for non-profit organizations and associations (most state golf associations use .org)
 - **.golf**: New golf-specific TLD, memorable but premium pricing
@@ -124,7 +130,7 @@ Below is a comprehensive list of **verified, working golf association websites**
 
 7. **vgagolf.org** - Virginia Golf Association
    - State association
-   - Demonstrates [state]gagolf.org pattern
+   - Demonstrates [state]ga golf.org pattern
 
 8. **coloradogolf.org** - Colorado Golf Association
    - State association
