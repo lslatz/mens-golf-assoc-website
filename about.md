@@ -5,8 +5,8 @@ permalink: /about/
 ---
 
 <section class="content-section">
-  <h2>About Indian Lakes Men's Association</h2>
-  <p>The Indian Lakes Men's Association is a vibrant community of golf enthusiasts located in Boise, Idaho. Our association provides members with regular competitive and recreational golf opportunities throughout the season.</p>
+  <h2>About Indian Lakes Men's Golf Association</h2>
+  <p>The Indian Lakes Men's Golf Association is a vibrant community of golf enthusiasts located in Boise, Idaho. Our association provides members with regular competitive and recreational golf opportunities throughout the season.</p>
 </section>
 
 <section class="content-section">
@@ -27,7 +27,7 @@ permalink: /about/
 
 <section class="content-section">
   <h2>Season Information</h2>
-  <p>Our season typically runs from April through October, with weekly events and special tournaments scheduled throughout the year.</p>
+  <p>Our season typically runs from March 1 – November 14, with weekly events and special tournaments scheduled throughout the year.</p>
 </section>
 
 <section class="content-section">

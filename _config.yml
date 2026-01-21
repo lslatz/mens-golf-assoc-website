@@ -1,8 +1,8 @@
 # Site settings
-title: Indian Lakes Men's Association
+title: Indian Lakes Men's Golf Association
 email: test@example.com
 description: >-
-  Official website for the Indian Lakes Men's Association in Boise, Idaho.
+  Official website for the Indian Lakes Men's Golf Association in Boise, Idaho.
   Find information about our association, events, and how to join.
 baseurl: ""
 url: ""
@@ -11,6 +11,12 @@ url: ""
 markdown: kramdown
 plugins:
   - jekyll-feed
+exclude:
+  - download-images.sh
+  - Gemfile
+  - Gemfile.lock
+  - IMAGES.md
+  - README.md
 
 # Navigation
 header_pages:
