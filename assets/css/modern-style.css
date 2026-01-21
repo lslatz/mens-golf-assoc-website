@@ -743,7 +743,7 @@ main {
   
   .btn-group {
     flex-direction: column;
-    margin-top: 8rem;
+    margin-top: 10rem !important;
   }
   
   .features-grid,
