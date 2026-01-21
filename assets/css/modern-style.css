@@ -729,11 +729,6 @@ main {
     opacity: 1;
     visibility: visible;
   }
-  
-  .hero {
-    min-height: 400px;
-    background-position: center 25%;
-  }
 
   .hero h1 {
     font-size: 2.5rem;
@@ -749,7 +744,7 @@ main {
   
   .btn-group {
     flex-direction: column;
-    margin-top: 5rem; /* Reduced gap on mobile */
+    margin-top: 10rem; /* Larger gap on mobile to push buttons into the grass */
   }
   
   .features-grid,
