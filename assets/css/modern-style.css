@@ -744,7 +744,7 @@ main {
   
   .btn-group {
     flex-direction: column;
-    margin-top: 8rem; /* Larger gap on mobile to push buttons into the grass */
+    margin-top: 10rem; /* Larger gap on mobile to push buttons into the grass */
   }
   
   .features-grid,
