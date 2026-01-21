@@ -130,7 +130,7 @@ Below is a comprehensive list of **verified, working golf association websites**
 
 7. **vgagolf.org** - Virginia Golf Association
    - State association
-   - Demonstrates [state]ga golf.org pattern
+   - Demonstrates [state] + ga + golf + .org pattern
 
 8. **coloradogolf.org** - Colorado Golf Association
    - State association
@@ -161,7 +161,7 @@ All domains listed below have been verified as **AVAILABLE** for registration as
 - **Length**: 17 characters
 - **Real World Examples of This Pattern**:
   - **mgagolf.org** - Metropolitan Golf Association (New York area) - one of the largest regional golf associations in the US
-  - Many local clubs use [clubname]mga format for their men's associations
+  - Many local clubs use the **[clubname]mga** format for their men's associations
 - **Pros**: 
   - Follows proven naming convention used by established associations
   - .com TLD (highest credibility)
