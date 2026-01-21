@@ -323,7 +323,7 @@ main {
   gap: 1rem;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 6rem 0 2rem;
+  margin: 10rem 0 2rem;
   animation: fadeInUp 1s ease 0.4s both;
 }
 
