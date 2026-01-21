@@ -281,19 +281,17 @@ main {
   box-shadow: var(--shadow);
 }
 
-@media (hover: hover) {
-  .btn-primary:hover {
-    background-color: #246B44; /* Darker Green */
-    color: #ffffff;
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(36, 107, 68, 0.4);
-    border-color: var(--accent-color);
-  }
+.btn-primary:hover {
+  background-color: #246B44; /* Darker Green */
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(36, 107, 68, 0.4);
+  border-color: var(--accent-color);
+}
 
-  .btn-outline:hover {
-    background: var(--text-on-dark);
-    color: var(--primary-color);
-  }
+.btn-outline:hover {
+  background: var(--text-on-dark);
+  color: var(--primary-color);
 }
 
 .btn-outline {
@@ -314,12 +312,10 @@ main {
   border: 2px solid var(--accent-color);
 }
 
-@media (hover: hover) {
-  .btn-secondary:hover {
-    background: var(--accent-color);
-    color: var(--primary-color);
-    border-color: var(--accent-color);
-  }
+.btn-secondary:hover {
+  background: var(--accent-color);
+  color: var(--primary-color);
+  border-color: var(--accent-color);
 }
 
 .btn-group {
@@ -327,7 +323,7 @@ main {
   gap: 1rem;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 2rem 0;
+  margin: 6rem 0 2rem;
   animation: fadeInUp 1s ease 0.4s both;
 }
 
@@ -740,6 +736,7 @@ main {
   
   .hero .lead {
     font-size: 1.25rem;
+    margin-top: 4rem; /* Push text/buttons down for mobile image visibility */
   }
   
   h1 { font-size: 2.5rem; }
