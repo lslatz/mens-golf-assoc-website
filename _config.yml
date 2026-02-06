@@ -5,7 +5,7 @@ description: >-
   Official website for the Indian Lakes Men's Golf Association in Boise, Idaho.
   Find information about our association, events, and how to join.
 baseurl: ""
-url: ""
+url: "https://indianlakesmensgolf.com"  # Replace with your actual domain
 
 # Build settings
 markdown: kramdown
