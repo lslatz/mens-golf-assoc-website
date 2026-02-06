@@ -1,11 +1,11 @@
 # Site settings
 title: Indian Lakes Men's Golf Association
-email: test@example.com
+email: billseargeant@gmail.com
 description: >-
   Official website for the Indian Lakes Men's Golf Association in Boise, Idaho.
   Find information about our association, events, and how to join.
 baseurl: ""
-url: "https://indianlakesmensgolf.com"  # Replace with your actual domain
+url: "https://indianlakesmensgolf.com"
 
 # Build settings
 markdown: kramdown
@@ -26,7 +26,7 @@ header_pages:
   - contact.md
 
 # Golf Genius integration
-golf_genius_url: "https://your-golf-genius-portal-url-here.com"  # TODO: Replace with your actual Golf Genius URL
+golf_genius_url: "https://golfhub.golfgenius.com/clubs/04a6714f-9720-496a-ae1f-4672664cc4b7"
 
 # Social links (optional)
 # facebook_url: ""

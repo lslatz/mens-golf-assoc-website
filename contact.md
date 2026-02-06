@@ -15,7 +15,7 @@ permalink: /contact/
   <p><strong>Email:</strong> 
     <script>
       // Obfuscated Email
-      var pieces = ["test", "example.com"]; 
+      var pieces = ["billseargeant", "gmail.com"]; 
       var address = pieces[0] + "@" + pieces[1];
       document.write('<a href="mailto:' + address + '" style="color: #ffffff;">' + address + '</a>');
     </script>

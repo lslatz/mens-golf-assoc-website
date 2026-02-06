@@ -9,7 +9,7 @@ permalink: /tournaments/
   <p>Our association hosts regular tournaments and events throughout the golf season.</p>
   <p>All event registrations are facilitated by Golf Genius&reg;.</p>
   <div style="margin-top: 1.5rem; text-align: center;">
-    <a href="https://www.golfgenius.com" class="btn btn-primary" target="_blank">View {{ site.time | date: "%Y" }} Schedule on Golf Genius</a>
+    <a href="{{ site.golf_genius_url }}" class="btn btn-primary" target="_blank">View {{ site.time | date: "%Y" }} Schedule on Golf Genius</a>
   </div>
 </section>
 
