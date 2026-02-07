@@ -11,12 +11,15 @@ url: "https://indianlakesmensgolf.com"
 markdown: kramdown
 plugins:
   - jekyll-feed
+include:
+  - .htaccess
 exclude:
   - download-images.sh
   - Gemfile
   - Gemfile.lock
   - IMAGES.md
   - README.md
+  - "*.zip"
 
 # Navigation
 header_pages:
